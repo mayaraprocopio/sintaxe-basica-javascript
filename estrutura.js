@@ -24,9 +24,19 @@ switch(opcao){//escolha
         console.log("Opção padrão");
         break;
 }*/
-let contador = 0;
-while(contador < 10){
+/*let contador = 0;
+do{
     console.log(++contador);
-    
+ } while(contador < 10)*/
 
+ function principal(mensagem) {
+    
+ 
+ for (let i = 0; i < 5; i++) {
+    console.log(i);
+   }
+   console.log(mensagem);
 }
+principal("Esta é a mensagem");
+
+
